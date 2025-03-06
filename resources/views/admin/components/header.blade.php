@@ -146,7 +146,7 @@
                     <a class="dropdown-item" href="profile.html"><i class="fa fa-cog"></i>Settings</a>
                     <a class="dropdown-item" href="javascript:;"><i class="fa fa-support"></i>Support</a>
                     <li class="dropdown-divider"></li>
-                    <a class="dropdown-item" href="{{ route('admin-logout') }}" onclick=" return confirm('Are You sure you want to logout?');"><i class="fa fa-power-off"></i>Logout</a>
+                    <a class="dropdown-item" href="{{ route('admin-logout') }}" onclick=" return confirm('Are You sure <u>you want to Logout?</u>');"><i class="fa fa-power-off"></i>Logout</a>
                 </ul>
             </li>
         </ul>
